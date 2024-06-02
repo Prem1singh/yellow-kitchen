@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.top{
+    background-color: white;
+    z-index: 100;
+}
+
+.ham{
+    width: 300px ;
+    height: 100vh !important;
+    background-color: white;
+    top: 0;
+    right: -100%;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-top: 80px;
+    font-size: 20px;
+    transition: 0.3s ;
+}
+.bars{
+    cursor: pointer;
+}
+a:hover{
+    color: initial;
+}
+.show{
+    right: 0% !important;
+}
+.ham li{
+    width: 80%;
+    padding: 30px ;
+    border-bottom: 1px solid rgb(154, 152, 152);
+}
+.parissec {
+    width: 60%;
+    bottom: 90px;
+    padding: 20px 30px 20px 60px;
+    
+}
+
+.showAll {
+    font-size: 10px;
+    padding: 0px 30px;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    color: rgb(105, 104, 104);
+}
+.nearest{
+    background-color: #F2F4FA;
+    padding: 50px 20px;
+    
+    margin-top: 100px;
+
+    color: #3F4255;
+}
+.nearest h3{
+    margin: 30px 0px;
+    font-weight: 300;
+    font-size: 40px;
+}
+.nearest p{
+    font-weight: 100;
+    font-size: 13px;
+}
+.inp-out{
+    width: 300px;
+    height: 60px !important;
+    position: relative;
+    cursor:vertical-text;
+}
+.inp-out>label{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    z-index: 2;
+    color: #9093A6;
+}
+.nearest input{
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.nearest button{
+    background-color: #FFE145;
+    padding: 15px;
+}
+.lemon{
+
+    background: url('../img/bg.png') no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 100vw;
+}
+.lemcont{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #FFE145;
+    position: relative;
+}
+.innlem{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid #B79C10
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    top: -30px;
+
+}
+footer{
+    margin-top: 40px;
+    background-color: #3F4255;
+    width: 100vw;
+    padding: 100px 20px;
+
+}
+.map{
+    width: 100vw;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+.map>img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
